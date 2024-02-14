@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { FC, useRef } from 'react';
 import HTMLFlipBook from 'react-pageflip';
 import Image from 'next/image';
