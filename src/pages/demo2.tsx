@@ -15,7 +15,7 @@ const Demo2 = () => {
 
   return (
     <div className="flex flex-col justify-center items-center w-[500px] m-auto">
-      <a className="my-10 text-xl m-auto" href="https://github.com/Nodlik/react-pageflip">React  - images</a>
+      <a className="my-10 text-xl m-auto" href="https://github.com/Nodlik/react-pageflip">React PDF - PDF</a>
       {!pdfDocument && <span>Loading...</span>}
       <canvas className="" ref={canvasRef} />
       {Boolean(pdfDocument && pdfDocument.numPages) && (
